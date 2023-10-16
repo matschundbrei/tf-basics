@@ -32,4 +32,4 @@ No inputs.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_greeting"></a> [greeting](#output\_greeting) | n/a |
+| <a name="output_greeting"></a> [greeting](#output\_greeting) | Says hello to the world via Terraform |
