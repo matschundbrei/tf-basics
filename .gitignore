@@ -34,3 +34,6 @@ override.tf.json
 
 # snyk sniffer cache config
 **/.dccache
+
+# do not want to check in the outputs.txt
+**/outputs.txt

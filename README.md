@@ -10,11 +10,17 @@ can contain an input variable.
 
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_local"></a> [local](#requirement\_local) | ~> 2.4 |
+| <a name="requirement_random"></a> [random](#requirement\_random) | ~> 3.5 |
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_local"></a> [local](#provider\_local) | 2.4.0 |
+| <a name="provider_random"></a> [random](#provider\_random) | 3.5.1 |
 
 ## Modules
 
@@ -22,14 +28,20 @@ No modules.
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [local_file.outputs](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
+| [random_pet.petname](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/pet) | resource |
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_greeting_target"></a> [greeting\_target](#input\_greeting\_target) | the target for our greeting-output | `string` | `""` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_greeting"></a> [greeting](#output\_greeting) | Says hello to the world via Terraform |
+| <a name="output_greeting"></a> [greeting](#output\_greeting) | Says hello to the World or a defined greeting\_target via Terraform |
+| <a name="output_pet"></a> [pet](#output\_pet) | a random pet name |
