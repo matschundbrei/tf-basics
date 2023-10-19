@@ -12,12 +12,14 @@ can contain an input variable.
 
 | Name | Version |
 |------|---------|
+| <a name="requirement_local"></a> [local](#requirement\_local) | ~> 2.4 |
 | <a name="requirement_random"></a> [random](#requirement\_random) | ~> 3.5 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
+| <a name="provider_local"></a> [local](#provider\_local) | 2.4.0 |
 | <a name="provider_random"></a> [random](#provider\_random) | 3.5.1 |
 
 ## Modules
@@ -28,6 +30,7 @@ No modules.
 
 | Name | Type |
 |------|------|
+| [local_file.outputs](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
 | [random_pet.petname](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/pet) | resource |
 
 ## Inputs
