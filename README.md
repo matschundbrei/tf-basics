@@ -26,10 +26,12 @@ No resources.
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_greeting_target"></a> [greeting\_target](#input\_greeting\_target) | the target for our greeting-output | `string` | `""` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_greeting"></a> [greeting](#output\_greeting) | Says hello to the world via Terraform |
+| <a name="output_greeting"></a> [greeting](#output\_greeting) | Says hello to the World or a defined greeting\_target via Terraform |
